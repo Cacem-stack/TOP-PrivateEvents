@@ -1,0 +1,19 @@
+current directory: /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+/nix/store/ffab2776ms3n4akdgxqwh5w04jh4hw3i-ruby-3.4.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250823-24401-97lj0 sitelibdir\=./.gem.20250823-24401-97lj0 clean
+
+current directory: /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250823-24401-97lj0 sitelibdir\=./.gem.20250823-24401-97lj0
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250823-24401-97lj0 sitelibdir\=./.gem.20250823-24401-97lj0 install
+install -c -p -m 755 debug.so ./.gem.20250823-24401-97lj0/debug
+
+current directory: /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/.bundle/ruby/3.4.0/gems/debug-1.11.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250823-24401-97lj0 sitelibdir\=./.gem.20250823-24401-97lj0 clean

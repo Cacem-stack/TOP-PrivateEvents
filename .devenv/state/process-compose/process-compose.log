@@ -1,0 +1,87 @@
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] The files belonging to this database system will be owned by user \"cac\"."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] This user must also own the server process."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] The database cluster will be initialized with locale \"C\"."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] The default text search configuration will be set to \"english\"."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] Data page checksums are disabled."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] creating directory /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/postgres ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] creating subdirectories ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] selecting dynamic shared memory implementation ... posix"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] selecting default \"max_connections\" ... 100"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] selecting default \"shared_buffers\" ... 128MB"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] selecting default time zone ... America/New_York"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] creating configuration files ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] running bootstrap script ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] performing post-bootstrap initialization ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] initdb: warning: enabling \"trust\" authentication for local connections"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] syncing data to disk ... ok"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] Success. You can now start the database server using:"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres]     pg_ctl -D /home/cac/dev/rails/TOP-PrivateEvents/.devenv/state/postgres -l logfile start"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL initdb process complete."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL is setting up the initial database."}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] waiting for server to start....2025-08-23 19:07:12.088 GMT [46789] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.092 GMT [46789] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.104 GMT [46792] LOG:  database system was shut down at 2025-08-23 19:07:09 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.111 GMT [46789] LOG:  database system is ready to accept connections"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres]  done"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] server started"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] CREATE DATABASE"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] waiting for server to shut down....2025-08-23 19:07:12.219 GMT [46789] LOG:  received fast shutdown request"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.222 GMT [46789] LOG:  aborting any active transactions"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.223 GMT [46789] LOG:  background worker \"logical replication launcher\" (PID 46795) exited with exit code 1"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.224 GMT [46790] LOG:  shutting down"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:12.227 GMT [46790] LOG:  checkpoint starting: shutdown immediate"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.001 GMT [46790] LOG:  checkpoint complete: wrote 925 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.736 s, total=0.778 s; sync files=301, longest=0.004 s, average=0.003 s; distance=4256 kB, estimate=4256 kB; lsn=0/1914DE0, redo lsn=0/1914DE0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.007 GMT [46789] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres]  done"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] server stopped"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.042 GMT [46685] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.045 GMT [46685] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.058 GMT [46802] LOG:  database system was shut down at 2025-08-23 19:07:12 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:13.065 GMT [46685] LOG:  database system is ready to accept connections"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:15.771 GMT [46967] FATAL:  database \"top_private_events_development\" does not exist"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:07:32.815 GMT [47275] FATAL:  database \"top_private_events_development\" does not exist"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:12:13.064 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:13:52.334 GMT [46800] LOG:  checkpoint complete: wrote 983 buffers (6.0%); 1 WAL file(s) added, 0 removed, 0 recycled; write=98.435 s, sync=0.789 s, total=99.271 s; sync files=321, longest=0.008 s, average=0.003 s; distance=4572 kB, estimate=4572 kB; lsn=0/1D8C188, redo lsn=0/1D8C0F8"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:22:13.534 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:22:14.788 GMT [46800] LOG:  checkpoint complete: wrote 13 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.207 s, sync=0.029 s, total=1.255 s; sync files=11, longest=0.004 s, average=0.003 s; distance=45 kB, estimate=4120 kB; lsn=0/1D978C0, redo lsn=0/1D97868"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:42:14.145 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:42:18.371 GMT [46800] LOG:  checkpoint complete: wrote 42 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.111 s, sync=0.095 s, total=4.226 s; sync files=38, longest=0.004 s, average=0.003 s; distance=144 kB, estimate=3722 kB; lsn=0/1DBB9C0, redo lsn=0/1DBB968"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:47:14.421 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:47:14.552 GMT [46800] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.104 s, sync=0.007 s, total=0.131 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=3350 kB; lsn=0/1DBBBB8, redo lsn=0/1DBBB60"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:52:14.652 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 19:52:18.985 GMT [46800] LOG:  checkpoint complete: wrote 43 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=4.213 s, sync=0.102 s, total=4.334 s; sync files=41, longest=0.004 s, average=0.003 s; distance=174 kB, estimate=3032 kB; lsn=0/1DE77C8, redo lsn=0/1DE7738"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 21:17:13.894 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 21:17:14.837 GMT [46800] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.906 s, sync=0.019 s, total=0.944 s; sync files=7, longest=0.004 s, average=0.003 s; distance=1 kB, estimate=2729 kB; lsn=0/1DE7C40, redo lsn=0/1DE7BE8"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 21:27:13.883 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 21:27:14.538 GMT [46800] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.609 s, sync=0.024 s, total=0.655 s; sync files=7, longest=0.006 s, average=0.004 s; distance=21 kB, estimate=2458 kB; lsn=0/1DED0A8, redo lsn=0/1DED050"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:42:14.498 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:42:14.636 GMT [46800] LOG:  checkpoint complete: wrote 2 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.106 s, sync=0.008 s, total=0.139 s; sync files=2, longest=0.005 s, average=0.004 s; distance=0 kB, estimate=2212 kB; lsn=0/1DED300, redo lsn=0/1DED2A8"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:47:14.651 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:47:15.205 GMT [46800] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.508 s, sync=0.022 s, total=0.555 s; sync files=6, longest=0.007 s, average=0.004 s; distance=15 kB, estimate=1993 kB; lsn=0/1DF1020, redo lsn=0/1DF0FC8"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:52:14.268 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:52:15.436 GMT [46800] LOG:  checkpoint complete: wrote 12 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=1.111 s, sync=0.036 s, total=1.168 s; sync files=12, longest=0.005 s, average=0.003 s; distance=22 kB, estimate=1796 kB; lsn=0/1DF6BB8, redo lsn=0/1DF6B60"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:57:14.480 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 22:57:14.824 GMT [46800] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.015 s, total=0.344 s; sync files=4, longest=0.006 s, average=0.004 s; distance=0 kB, estimate=1616 kB; lsn=0/1DF6ED8, redo lsn=0/1DF6E80"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:22:15.186 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:22:15.532 GMT [46800] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.015 s, total=0.346 s; sync files=4, longest=0.006 s, average=0.004 s; distance=0 kB, estimate=1455 kB; lsn=0/1DF72D0, redo lsn=0/1DF7278"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:27:15.632 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:27:15.979 GMT [46800] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.015 s, total=0.348 s; sync files=4, longest=0.007 s, average=0.004 s; distance=2 kB, estimate=1309 kB; lsn=0/1DF7D70, redo lsn=0/1DF7D18"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:32:15.987 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-23 23:32:16.330 GMT [46800] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.015 s, total=0.344 s; sync files=4, longest=0.006 s, average=0.004 s; distance=2 kB, estimate=1179 kB; lsn=0/1DF8940, redo lsn=0/1DF88E8"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-24 18:51:57.674 GMT [46800] LOG:  checkpoint starting: time"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-24 18:51:57.914 GMT [46800] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.206 s, sync=0.013 s, total=0.241 s; sync files=3, long

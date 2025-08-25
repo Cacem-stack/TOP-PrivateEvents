@@ -1,0 +1,7 @@
+<h1> Event#new <h1>
+
+    <%= form_with model: @event do |form| %>
+      <%= form.text_field(:name, placeholder: "Event Name:") %>
+      <%= form.date_field(:date, placeholder: "Event Date:") %>
+      <%= form.submit "Submit" %>
+    <% end %>

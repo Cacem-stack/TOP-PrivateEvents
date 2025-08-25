@@ -1,0 +1,7 @@
+<li><%= "#{event.name} #{event.date}"  %></li>
+<li><%= "Creator: #{User.find(event.creator_id).name}" %></li>
+<li>Attendees: </li>
+
+<%= link_to 'Show event', event_path(event.id) %>
+<%= link_to 'Destroy', event, data: {turbo_method: :delete} %>
+
