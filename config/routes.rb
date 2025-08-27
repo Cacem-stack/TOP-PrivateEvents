@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   root "events#index"
 
   resources :events
+  resources :event_attendings, only: [:new, :create]
 end

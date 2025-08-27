@@ -7,5 +7,7 @@
 <ul>
   <% @events.each do |event| %>
     <%= render event %>
+    <% if user_signed_in? %>
+    <% end %>
   <% end %>
 </ul>
