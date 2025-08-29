@@ -1,7 +1,7 @@
 Running tasks     devenv:enterShell
 
 Running           devenv:enterShell
-Succeeded         devenv:enterShell (4.45ms)
+Succeeded         devenv:enterShell (6.00ms)
 1 Succeeded
 [postgres	] Running tasks     devenv:processes:postgres
 [postgres	] 
@@ -9,16 +9,9 @@ Succeeded         devenv:enterShell (4.45ms)
 [postgres	] [devenv:processes:postgres] 
 [postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
 [postgres	] [devenv:processes:postgres] 
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:28.587 GMT [4902] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:28.591 GMT [4902] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:28.609 GMT [4910] LOG:  database system was interrupted; last known up at 2025-08-24 18:56:58 GMT
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:30.484 GMT [4956] FATAL:  the database system is starting up
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.618 GMT [4910] LOG:  database system was not properly shut down; automatic recovery in progress
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.627 GMT [4910] LOG:  redo starts at 0/1DF9D48
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.627 GMT [4910] LOG:  invalid record length at 0/1DF9E50: expected at least 24, got 0
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.627 GMT [4910] LOG:  redo done at 0/1DF9E18 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.638 GMT [4908] LOG:  checkpoint starting: end-of-recovery immediate wait
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.671 GMT [4908] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.006 s, total=0.037 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1DF9E50, redo lsn=0/1DF9E50
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:33:32.678 GMT [4902] LOG:  database system is ready to accept connections
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:43:32.827 GMT [4908] LOG:  checkpoint starting: time
-[postgres	] [devenv:processes:postgres] 2025-08-27 18:43:36.858 GMT [4908] LOG:  checkpoint complete: wrote 40 buffers (0.2%); 0 WAL file(s) added, 0 removed, 0 recycled; write=3.918 s, sync=0.090 s, total=4.031 s; sync files=35, longest=0.004 s, average=0.003 s; distance=144 kB, estimate=144 kB; lsn=0/1E1E1A8, redo lsn=0/1E1E150
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.919 GMT [257778] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.923 GMT [257778] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.936 GMT [257785] LOG:  database system was shut down at 2025-08-29 02:09:44 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.949 GMT [257778] LOG:  database system is ready to accept connections
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:19:35.992 GMT [257783] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-08-29 23:19:36.025 GMT [257783] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.006 s, total=0.033 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1E1F6B8, redo lsn=0/1E1F660
