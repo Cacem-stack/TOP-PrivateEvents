@@ -1,7 +1,7 @@
 Running tasks     devenv:enterShell
 
 Running           devenv:enterShell
-Succeeded         devenv:enterShell (6.00ms)
+Succeeded         devenv:enterShell (10.09ms)
 1 Succeeded
 [postgres	] Running tasks     devenv:processes:postgres
 [postgres	] 
@@ -9,9 +9,571 @@ Succeeded         devenv:enterShell (6.00ms)
 [postgres	] [devenv:processes:postgres] 
 [postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
 [postgres	] [devenv:processes:postgres] 
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.919 GMT [257778] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.923 GMT [257778] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.936 GMT [257785] LOG:  database system was shut down at 2025-08-29 02:09:44 GMT
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:14:35.949 GMT [257778] LOG:  database system is ready to accept connections
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:19:35.992 GMT [257783] LOG:  checkpoint starting: time
-[postgres	] [devenv:processes:postgres] 2025-08-29 23:19:36.025 GMT [257783] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.006 s, total=0.033 s; sync files=2, longest=0.003 s, average=0.003 s; distance=0 kB, estimate=0 kB; lsn=0/1E1F6B8, redo lsn=0/1E1F660
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:30.167 GMT [27217] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:30.171 GMT [27217] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:30.190 GMT [27224] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:32.047 GMT [27402] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:35.094 GMT [27217] LOG:  startup process (PID 27224) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:35.094 GMT [27217] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:35.095 GMT [27217] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (5.08s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0005.06: 
+[postgres	] 0005.06: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0005.06: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.93: 2025-08-30 02:08:30.167 GMT [27217] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.93: 2025-08-30 02:08:30.171 GMT [27217] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.91: 2025-08-30 02:08:30.190 GMT [27224] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0003.05: 2025-08-30 02:08:32.047 GMT [27402] FATAL:  the database system is starting up
+[postgres	] 0000.54: 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.54: 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid checkpoint record
+[postgres	] 0000.54: 2025-08-30 02:08:34.560 GMT [27224] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:08:35.094 GMT [27217] LOG:  startup process (PID 27224) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:08:35.094 GMT [27217] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:08:35.095 GMT [27217] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:36.151 GMT [27532] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:36.155 GMT [27532] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:36.168 GMT [27539] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:40.605 GMT [27539] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:41.095 GMT [27532] LOG:  startup process (PID 27539) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:41.096 GMT [27532] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:41.097 GMT [27532] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.99s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.98: 
+[postgres	] 0004.98: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.98: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.95: 2025-08-30 02:08:36.151 GMT [27532] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.94: 2025-08-30 02:08:36.155 GMT [27532] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.93: 2025-08-30 02:08:36.168 GMT [27539] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0000.49: 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.49: 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid checkpoint record
+[postgres	] 0000.49: 2025-08-30 02:08:40.605 GMT [27539] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:08:41.095 GMT [27532] LOG:  startup process (PID 27539) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:08:41.096 GMT [27532] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:08:41.097 GMT [27532] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:42.166 GMT [27667] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:42.171 GMT [27667] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:42.188 GMT [27675] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:47.251 GMT [27667] LOG:  startup process (PID 27675) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:47.251 GMT [27667] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:47.253 GMT [27667] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (5.15s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0005.13: 
+[postgres	] 0005.13: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0005.13: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0005.09: 2025-08-30 02:08:42.166 GMT [27667] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0005.08: 2025-08-30 02:08:42.171 GMT [27667] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0005.07: 2025-08-30 02:08:42.188 GMT [27675] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0000.54: 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.54: 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid checkpoint record
+[postgres	] 0000.54: 2025-08-30 02:08:46.720 GMT [27675] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:08:47.251 GMT [27667] LOG:  startup process (PID 27675) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:08:47.251 GMT [27667] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:08:47.253 GMT [27667] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:48.327 GMT [27809] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:48.331 GMT [27809] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:48.347 GMT [27816] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:51.045 GMT [27830] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:51.150 GMT [27831] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.024 GMT [27877] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.651 GMT [27898] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:52.755 GMT [27899] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:53.022 GMT [27809] LOG:  startup process (PID 27816) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:53.022 GMT [27809] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:53.023 GMT [27809] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.76s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.74: 
+[postgres	] 0004.74: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.74: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.70: 2025-08-30 02:08:48.327 GMT [27809] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.69: 2025-08-30 02:08:48.331 GMT [27809] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.68: 2025-08-30 02:08:48.347 GMT [27816] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0001.98: 2025-08-30 02:08:51.045 GMT [27830] FATAL:  the database system is starting up
+[postgres	] 0001.88: 2025-08-30 02:08:51.150 GMT [27831] FATAL:  the database system is starting up
+[postgres	] 0001.00: 2025-08-30 02:08:52.024 GMT [27877] FATAL:  the database system is starting up
+[postgres	] 0000.42: 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.42: 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid checkpoint record
+[postgres	] 0000.42: 2025-08-30 02:08:52.607 GMT [27816] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.37: 2025-08-30 02:08:52.651 GMT [27898] FATAL:  the database system is starting up
+[postgres	] 0000.27: 2025-08-30 02:08:52.755 GMT [27899] FATAL:  the database system is starting up
+[postgres	] 0000.00: 2025-08-30 02:08:53.022 GMT [27809] LOG:  startup process (PID 27816) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:08:53.022 GMT [27809] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:08:53.023 GMT [27809] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:54.082 GMT [27950] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:54.087 GMT [27950] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:54.104 GMT [27957] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:56.074 GMT [27969] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:56.177 GMT [28011] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:57.823 GMT [28012] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:57.926 GMT [28013] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  startup process (PID 27957) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.65s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.64: 
+[postgres	] 0004.64: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.64: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.60: 2025-08-30 02:08:54.082 GMT [27950] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.60: 2025-08-30 02:08:54.087 GMT [27950] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.58: 2025-08-30 02:08:54.104 GMT [27957] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0002.61: 2025-08-30 02:08:56.074 GMT [27969] FATAL:  the database system is starting up
+[postgres	] 0002.51: 2025-08-30 02:08:56.177 GMT [28011] FATAL:  the database system is starting up
+[postgres	] 0000.86: 2025-08-30 02:08:57.823 GMT [28012] FATAL:  the database system is starting up
+[postgres	] 0000.76: 2025-08-30 02:08:57.926 GMT [28013] FATAL:  the database system is starting up
+[postgres	] 0000.36: 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.36: 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid checkpoint record
+[postgres	] 0000.36: 2025-08-30 02:08:58.329 GMT [27957] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  startup process (PID 27957) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:59.744 GMT [28049] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:59.748 GMT [28049] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:59.765 GMT [28056] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:59.832 GMT [28057] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:08:59.936 GMT [28058] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:01.309 GMT [28102] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:01.412 GMT [28103] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:02.019 GMT [28106] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:02.349 GMT [28107] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:02.451 GMT [28108] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:03.280 GMT [28109] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:03.383 GMT [28119] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:04.200 GMT [28049] LOG:  startup process (PID 28056) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:04.200 GMT [28049] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:04.201 GMT [28049] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.51s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.49: 
+[postgres	] 0004.49: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.49: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.46: 2025-08-30 02:08:59.744 GMT [28049] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.45: 2025-08-30 02:08:59.748 GMT [28049] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.44: 2025-08-30 02:08:59.765 GMT [28056] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0004.37: 2025-08-30 02:08:59.832 GMT [28057] FATAL:  the database system is starting up
+[postgres	] 0004.27: 2025-08-30 02:08:59.936 GMT [28058] FATAL:  the database system is starting up
+[postgres	] 0002.89: 2025-08-30 02:09:01.309 GMT [28102] FATAL:  the database system is starting up
+[postgres	] 0002.79: 2025-08-30 02:09:01.412 GMT [28103] FATAL:  the database system is starting up
+[postgres	] 0002.18: 2025-08-30 02:09:02.019 GMT [28106] FATAL:  the database system is starting up
+[postgres	] 0001.85: 2025-08-30 02:09:02.349 GMT [28107] FATAL:  the database system is starting up
+[postgres	] 0001.75: 2025-08-30 02:09:02.451 GMT [28108] FATAL:  the database system is starting up
+[postgres	] 0000.92: 2025-08-30 02:09:03.280 GMT [28109] FATAL:  the database system is starting up
+[postgres	] 0000.82: 2025-08-30 02:09:03.383 GMT [28119] FATAL:  the database system is starting up
+[postgres	] 0000.36: 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.36: 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid checkpoint record
+[postgres	] 0000.36: 2025-08-30 02:09:03.844 GMT [28056] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:09:04.200 GMT [28049] LOG:  startup process (PID 28056) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:09:04.200 GMT [28049] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:09:04.201 GMT [28049] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:05.254 GMT [28190] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:05.258 GMT [28190] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:05.275 GMT [28197] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:05.985 GMT [28198] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:06.089 GMT [28199] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:07.670 GMT [28209] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:07.774 GMT [28210] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  startup process (PID 28197) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.61s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.60: 
+[postgres	] 0004.60: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.60: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.57: 2025-08-30 02:09:05.254 GMT [28190] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.56: 2025-08-30 02:09:05.258 GMT [28190] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.55: 2025-08-30 02:09:05.275 GMT [28197] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0003.84: 2025-08-30 02:09:05.985 GMT [28198] FATAL:  the database system is starting up
+[postgres	] 0003.73: 2025-08-30 02:09:06.089 GMT [28199] FATAL:  the database system is starting up
+[postgres	] 0002.15: 2025-08-30 02:09:07.670 GMT [28209] FATAL:  the database system is starting up
+[postgres	] 0002.05: 2025-08-30 02:09:07.774 GMT [28210] FATAL:  the database system is starting up
+[postgres	] 0000.38: 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.38: 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid checkpoint record
+[postgres	] 0000.38: 2025-08-30 02:09:09.445 GMT [28197] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  startup process (PID 28197) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:10.889 GMT [28284] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:10.893 GMT [28284] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:10.911 GMT [28292] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:12.023 GMT [28355] FATAL:  the database system is starting up
+[postgres	] Received SIGINT (Ctrl+C), shutting down gracefully...
+[postgres	] Task devenv:processes:postgres received shutdown signal, terminating child process
+[postgres	] Cancelled         devenv:processes:postgres (2.19s)
+[postgres	] 1 Cancelled
+Project Completed. Press Ctrl+C to quit
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:43.120 GMT [28941] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:43.124 GMT [28941] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:43.140 GMT [28948] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:45.070 GMT [28954] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:45.430 GMT [28964] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:45.535 GMT [28965] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:47.503 GMT [28948] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:47.503 GMT [28948] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:47.503 GMT [28948] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:48.016 GMT [28941] LOG:  startup process (PID 28948) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:48.016 GMT [28941] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:48.017 GMT [28941] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.95s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.94: 
+[postgres	] 0004.94: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.94: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.90: 2025-08-30 02:09:43.120 GMT [28941] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.90: 2025-08-30 02:09:43.124 GMT [28941] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.88: 2025-08-30 02:09:43.140 GMT [28948] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0002.95: 2025-08-30 02:09:45.070 GMT [28954] FATAL:  the database system is starting up
+[postgres	] 0002.59: 2025-08-30 02:09:45.430 GMT [28964] FATAL:  the database system is starting up
+[postgres	] 0002.48: 2025-08-30 02:09:45.535 GMT [28965] FATAL:  the database system is starting up
+[postgres	] 0000.52: 2025-08-30 02:09:47.503 GMT [28948] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.52: 2025-08-30 02:09:47.503 GMT [28948] LOG:  invalid checkpoint record
+[postgres	] 0000.52: 2025-08-30 02:09:47.503 GMT [28948] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:09:48.016 GMT [28941] LOG:  startup process (PID 28948) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:09:48.016 GMT [28941] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:09:48.017 GMT [28941] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:49.090 GMT [29038] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:49.096 GMT [29038] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:49.114 GMT [29045] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:52.847 GMT [29102] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:52.950 GMT [29103] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.455 GMT [29045] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.455 GMT [29045] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.455 GMT [29045] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.997 GMT [29038] LOG:  startup process (PID 29045) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.997 GMT [29038] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:53.998 GMT [29038] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.97s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.95: 
+[postgres	] 0004.95: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.95: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.91: 2025-08-30 02:09:49.090 GMT [29038] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.90: 2025-08-30 02:09:49.096 GMT [29038] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.89: 2025-08-30 02:09:49.114 GMT [29045] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0001.15: 2025-08-30 02:09:52.847 GMT [29102] FATAL:  the database system is starting up
+[postgres	] 0001.05: 2025-08-30 02:09:52.950 GMT [29103] FATAL:  the database system is starting up
+[postgres	] 0000.54: 2025-08-30 02:09:53.455 GMT [29045] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.54: 2025-08-30 02:09:53.455 GMT [29045] LOG:  invalid checkpoint record
+[postgres	] 0000.54: 2025-08-30 02:09:53.455 GMT [29045] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:09:53.997 GMT [29038] LOG:  startup process (PID 29045) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:09:53.997 GMT [29038] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:09:53.998 GMT [29038] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:55.061 GMT [29182] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:55.066 GMT [29182] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:55.083 GMT [29191] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:55.083 GMT [29192] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.387 GMT [29191] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.387 GMT [29191] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.387 GMT [29191] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.905 GMT [29182] LOG:  startup process (PID 29191) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.906 GMT [29182] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:09:59.907 GMT [29182] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (4.90s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0004.88: 
+[postgres	] 0004.88: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0004.88: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.85: 2025-08-30 02:09:55.061 GMT [29182] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.84: 2025-08-30 02:09:55.066 GMT [29182] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.83: 2025-08-30 02:09:55.083 GMT [29191] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0004.83: 2025-08-30 02:09:55.083 GMT [29192] FATAL:  the database system is starting up
+[postgres	] 0000.52: 2025-08-30 02:09:59.387 GMT [29191] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.52: 2025-08-30 02:09:59.387 GMT [29191] LOG:  invalid checkpoint record
+[postgres	] 0000.52: 2025-08-30 02:09:59.387 GMT [29191] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:09:59.905 GMT [29182] LOG:  startup process (PID 29191) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:09:59.906 GMT [29182] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:09:59.907 GMT [29182] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:00.980 GMT [29272] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:00.985 GMT [29272] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:01.002 GMT [29279] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.069 GMT [29334] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.429 GMT [29279] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.429 GMT [29279] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.429 GMT [29279] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.942 GMT [29272] LOG:  startup process (PID 29279) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.942 GMT [29272] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:05.943 GMT [29272] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (5.02s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0005.01: 
+[postgres	] 0005.01: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0005.01: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.97: 2025-08-30 02:10:00.980 GMT [29272] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.96: 2025-08-30 02:10:00.985 GMT [29272] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.94: 2025-08-30 02:10:01.002 GMT [29279] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0000.88: 2025-08-30 02:10:05.069 GMT [29334] FATAL:  the database system is starting up
+[postgres	] 0000.52: 2025-08-30 02:10:05.429 GMT [29279] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.52: 2025-08-30 02:10:05.429 GMT [29279] LOG:  invalid checkpoint record
+[postgres	] 0000.52: 2025-08-30 02:10:05.429 GMT [29279] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:10:05.942 GMT [29272] LOG:  startup process (PID 29279) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:10:05.942 GMT [29272] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:10:05.943 GMT [29272] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:07.016 GMT [29371] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:07.020 GMT [29371] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:07.036 GMT [29379] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:11.496 GMT [29379] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:11.496 GMT [29379] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:11.496 GMT [29379] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:12.005 GMT [29371] LOG:  startup process (PID 29379) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:12.005 GMT [29371] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:12.005 GMT [29371] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (5.05s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0005.03: 
+[postgres	] 0005.03: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0005.03: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.99: 2025-08-30 02:10:07.016 GMT [29371] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.99: 2025-08-30 02:10:07.020 GMT [29371] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.97: 2025-08-30 02:10:07.036 GMT [29379] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0000.51: 2025-08-30 02:10:11.496 GMT [29379] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.51: 2025-08-30 02:10:11.496 GMT [29379] LOG:  invalid checkpoint record
+[postgres	] 0000.51: 2025-08-30 02:10:11.496 GMT [29379] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:10:12.005 GMT [29371] LOG:  startup process (PID 29379) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:10:12.005 GMT [29371] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:10:12.005 GMT [29371] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:13.739 GMT [29502] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:13.744 GMT [29502] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:13.760 GMT [29509] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:15.690 GMT [29522] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.201 GMT [29509] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.201 GMT [29509] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.201 GMT [29509] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.718 GMT [29502] LOG:  startup process (PID 29509) was terminated by signal 6: Aborted
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.718 GMT [29502] LOG:  aborting startup due to startup process failure
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:18.719 GMT [29502] LOG:  database system is shut down
+[postgres	] Failed            devenv:processes:postgres (5.04s)
+[postgres	] 1 Failed
+[postgres	] 
+[postgres	] --- devenv:processes:postgres failed with error: Task exited with status: exit status: 1
+[postgres	] --- devenv:processes:postgres stdout:
+[postgres	] 0005.02: 
+[postgres	] 0005.02: PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] 0005.02: 
+[postgres	] --- devenv:processes:postgres stderr:
+[postgres	] 0004.98: 2025-08-30 02:10:13.739 GMT [29502] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] 0004.98: 2025-08-30 02:10:13.744 GMT [29502] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] 0004.96: 2025-08-30 02:10:13.760 GMT [29509] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] 0003.03: 2025-08-30 02:10:15.690 GMT [29522] FATAL:  the database system is starting up
+[postgres	] 0000.52: 2025-08-30 02:10:18.201 GMT [29509] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] 0000.52: 2025-08-30 02:10:18.201 GMT [29509] LOG:  invalid checkpoint record
+[postgres	] 0000.52: 2025-08-30 02:10:18.201 GMT [29509] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] 0000.00: 2025-08-30 02:10:18.718 GMT [29502] LOG:  startup process (PID 29509) was terminated by signal 6: Aborted
+[postgres	] 0000.00: 2025-08-30 02:10:18.718 GMT [29502] LOG:  aborting startup due to startup process failure
+[postgres	] 0000.00: 2025-08-30 02:10:18.719 GMT [29502] LOG:  database system is shut down
+[postgres	] ---
+[postgres	] 
+[postgres	] 
+
+[postgres	] Running tasks     devenv:processes:postgres
+[postgres	] 
+[postgres	] Running           devenv:processes:postgres
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization
+[postgres	] [devenv:processes:postgres] 
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:19.787 GMT [29603] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:19.791 GMT [29603] LOG:  listening on Unix socket "/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432"
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:19.809 GMT [29610] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:22.792 GMT [29655] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:22.896 GMT [29656] FATAL:  the database system is starting up
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:24.087 GMT [29610] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:24.087 GMT [29610] LOG:  invalid checkpoint record
+[postgres	] [devenv:processes:postgres] 2025-08-30 02:10:24.087 GMT [29610] PANIC:  could not locate a valid checkpoint record at 0/1E20178
+[postgres	] Received SIGINT (Ctrl+C), shutting down gracefully...
+[postgres	] Task devenv:processes:postgres received shutdown signal, terminating child process
+[postgres	] Cancelled         devenv:processes:postgres (5.38s)
+[postgres	] 1 Cancelled

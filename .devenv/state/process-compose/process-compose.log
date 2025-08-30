@@ -1,0 +1,312 @@
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:30.167 GMT [27217] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:30.171 GMT [27217] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:30.190 GMT [27224] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:32.047 GMT [27402] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:34.560 GMT [27224] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:35.094 GMT [27217] LOG:  startup process (PID 27224) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:35.094 GMT [27217] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:35.095 GMT [27217] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (5.08s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.06: "}
+{"level":"error","process":"postgres","replica":0,"message":"0005.06: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.06: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.93: 2025-08-30 02:08:30.167 GMT [27217] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.93: 2025-08-30 02:08:30.171 GMT [27217] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.91: 2025-08-30 02:08:30.190 GMT [27224] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0003.05: 2025-08-30 02:08:32.047 GMT [27402] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:34.560 GMT [27224] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:34.560 GMT [27224] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:35.094 GMT [27217] LOG:  startup process (PID 27224) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:35.094 GMT [27217] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:35.095 GMT [27217] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:36.151 GMT [27532] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:36.155 GMT [27532] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:36.168 GMT [27539] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:40.605 GMT [27539] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:41.095 GMT [27532] LOG:  startup process (PID 27539) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:41.096 GMT [27532] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:41.097 GMT [27532] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (4.99s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.98: "}
+{"level":"error","process":"postgres","replica":0,"message":"0004.98: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.98: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.95: 2025-08-30 02:08:36.151 GMT [27532] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.94: 2025-08-30 02:08:36.155 GMT [27532] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.93: 2025-08-30 02:08:36.168 GMT [27539] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.49: 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.49: 2025-08-30 02:08:40.604 GMT [27539] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.49: 2025-08-30 02:08:40.605 GMT [27539] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:41.095 GMT [27532] LOG:  startup process (PID 27539) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:41.096 GMT [27532] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:41.097 GMT [27532] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:42.166 GMT [27667] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:42.171 GMT [27667] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:42.188 GMT [27675] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:46.720 GMT [27675] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:47.251 GMT [27667] LOG:  startup process (PID 27675) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:47.251 GMT [27667] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:47.253 GMT [27667] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (5.15s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.13: "}
+{"level":"error","process":"postgres","replica":0,"message":"0005.13: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.13: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.09: 2025-08-30 02:08:42.166 GMT [27667] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0005.08: 2025-08-30 02:08:42.171 GMT [27667] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0005.07: 2025-08-30 02:08:42.188 GMT [27675] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:46.720 GMT [27675] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.54: 2025-08-30 02:08:46.720 GMT [27675] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:47.251 GMT [27667] LOG:  startup process (PID 27675) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:47.251 GMT [27667] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:47.253 GMT [27667] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:48.327 GMT [27809] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:48.331 GMT [27809] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:48.347 GMT [27816] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:51.045 GMT [27830] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:51.150 GMT [27831] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.024 GMT [27877] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.607 GMT [27816] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.651 GMT [27898] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:52.755 GMT [27899] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:53.022 GMT [27809] LOG:  startup process (PID 27816) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:53.022 GMT [27809] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:53.023 GMT [27809] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (4.76s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.74: "}
+{"level":"error","process":"postgres","replica":0,"message":"0004.74: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.74: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.70: 2025-08-30 02:08:48.327 GMT [27809] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.69: 2025-08-30 02:08:48.331 GMT [27809] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.68: 2025-08-30 02:08:48.347 GMT [27816] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0001.98: 2025-08-30 02:08:51.045 GMT [27830] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0001.88: 2025-08-30 02:08:51.150 GMT [27831] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0001.00: 2025-08-30 02:08:52.024 GMT [27877] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.42: 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.42: 2025-08-30 02:08:52.607 GMT [27816] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.42: 2025-08-30 02:08:52.607 GMT [27816] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.37: 2025-08-30 02:08:52.651 GMT [27898] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.27: 2025-08-30 02:08:52.755 GMT [27899] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:53.022 GMT [27809] LOG:  startup process (PID 27816) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:53.022 GMT [27809] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:53.023 GMT [27809] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:54.082 GMT [27950] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:54.087 GMT [27950] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:54.104 GMT [27957] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:56.074 GMT [27969] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:56.177 GMT [28011] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:57.823 GMT [28012] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:57.926 GMT [28013] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.329 GMT [27957] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  startup process (PID 27957) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:58.684 GMT [27950] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (4.65s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.64: "}
+{"level":"error","process":"postgres","replica":0,"message":"0004.64: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.64: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.60: 2025-08-30 02:08:54.082 GMT [27950] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.60: 2025-08-30 02:08:54.087 GMT [27950] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.58: 2025-08-30 02:08:54.104 GMT [27957] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.61: 2025-08-30 02:08:56.074 GMT [27969] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.51: 2025-08-30 02:08:56.177 GMT [28011] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.86: 2025-08-30 02:08:57.823 GMT [28012] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.76: 2025-08-30 02:08:57.926 GMT [28013] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:08:58.329 GMT [27957] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:08:58.329 GMT [27957] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  startup process (PID 27957) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:08:58.684 GMT [27950] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:59.744 GMT [28049] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:59.748 GMT [28049] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:59.765 GMT [28056] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:59.832 GMT [28057] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:08:59.936 GMT [28058] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:01.309 GMT [28102] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:01.412 GMT [28103] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:02.019 GMT [28106] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:02.349 GMT [28107] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:02.451 GMT [28108] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:03.280 GMT [28109] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:03.383 GMT [28119] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:03.844 GMT [28056] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:04.200 GMT [28049] LOG:  startup process (PID 28056) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:04.200 GMT [28049] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:04.201 GMT [28049] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (4.51s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.49: "}
+{"level":"error","process":"postgres","replica":0,"message":"0004.49: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.49: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.46: 2025-08-30 02:08:59.744 GMT [28049] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.45: 2025-08-30 02:08:59.748 GMT [28049] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.44: 2025-08-30 02:08:59.765 GMT [28056] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.37: 2025-08-30 02:08:59.832 GMT [28057] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.27: 2025-08-30 02:08:59.936 GMT [28058] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.89: 2025-08-30 02:09:01.309 GMT [28102] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.79: 2025-08-30 02:09:01.412 GMT [28103] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.18: 2025-08-30 02:09:02.019 GMT [28106] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0001.85: 2025-08-30 02:09:02.349 GMT [28107] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0001.75: 2025-08-30 02:09:02.451 GMT [28108] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.92: 2025-08-30 02:09:03.280 GMT [28109] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.82: 2025-08-30 02:09:03.383 GMT [28119] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:09:03.844 GMT [28056] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.36: 2025-08-30 02:09:03.844 GMT [28056] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:04.200 GMT [28049] LOG:  startup process (PID 28056) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:04.200 GMT [28049] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:04.201 GMT [28049] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:05.254 GMT [28190] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:05.258 GMT [28190] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:05.275 GMT [28197] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:05.985 GMT [28198] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:06.089 GMT [28199] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:07.670 GMT [28209] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:07.774 GMT [28210] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.445 GMT [28197] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  startup process (PID 28197) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:09.820 GMT [28190] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"Failed            devenv:processes:postgres (4.61s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Failed"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres failed with error: Task exited with status: exit status: 1"}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stdout:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.60: "}
+{"level":"error","process":"postgres","replica":0,"message":"0004.60: PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.60: "}
+{"level":"error","process":"postgres","replica":0,"message":"--- devenv:processes:postgres stderr:"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.57: 2025-08-30 02:09:05.254 GMT [28190] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"0004.56: 2025-08-30 02:09:05.258 GMT [28190] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"0004.55: 2025-08-30 02:09:05.275 GMT [28197] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"0003.84: 2025-08-30 02:09:05.985 GMT [28198] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0003.73: 2025-08-30 02:09:06.089 GMT [28199] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.15: 2025-08-30 02:09:07.670 GMT [28209] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0002.05: 2025-08-30 02:09:07.774 GMT [28210] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.38: 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid record length at 0/1E20178: expected at least 24, got 0"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.38: 2025-08-30 02:09:09.445 GMT [28197] LOG:  invalid checkpoint record"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.38: 2025-08-30 02:09:09.445 GMT [28197] PANIC:  could not locate a valid checkpoint record at 0/1E20178"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  startup process (PID 28197) was terminated by signal 6: Aborted"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  aborting startup due to startup process failure"}
+{"level":"error","process":"postgres","replica":0,"message":"0000.00: 2025-08-30 02:09:09.820 GMT [28190] LOG:  database system is shut down"}
+{"level":"error","process":"postgres","replica":0,"message":"---"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"info","process":"postgres","replica":0,"message":"\n"}
+{"level":"error","process":"postgres","replica":0,"message":"Running tasks     devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0}
+{"level":"error","process":"postgres","replica":0,"message":"Running           devenv:processes:postgres"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] PostgreSQL database directory appears to contain a database; Skipping initialization"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] "}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:10.889 GMT [28284] LOG:  starting PostgreSQL 17.5 on x86_64-pc-linux-gnu, compiled by clang version 19.1.7, 64-bit"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:10.893 GMT [28284] LOG:  listening on Unix socket \"/tmp/devenv-9a75cdc/postgres/.s.PGSQL.5432\""}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:10.911 GMT [28292] LOG:  database system was interrupted; last known up at 2025-08-29 23:59:36 GMT"}
+{"level":"error","process":"postgres","replica":0,"message":"[devenv:processes:postgres] 2025-08-30 02:09:12.023 GMT [28355] FATAL:  the database system is starting up"}
+{"level":"error","process":"postgres","replica":0,"message":"Received SIGINT (Ctrl+C), shutting down gracefully..."}
+{"level":"error","process":"postgres","replica":0,"message":"Task devenv:processes:postgres received shutdown signal, terminating child process"}
+{"level":"error","process":"postgres","replica":0,"message":"Cancelled         devenv:processes:postgres (2.19s)"}
+{"level":"error","process":"postgres","replica":0,"message":"1 Cancelled"}
