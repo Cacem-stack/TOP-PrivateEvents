@@ -1,0 +1,8 @@
+<h1> Users#show </h1>
+
+
+<% current_user.attended_events.each do |event| %>
+  <%= "Created Events:"%><br/><br/>
+  <%= "Attended Events:"%><br/><br/>
+  <%= render "events/event", event: event %>
+<% end %>
