@@ -1,8 +1,11 @@
 <h1> Users#show </h1>
 
 
-<% current_user.attended_events.each do |event| %>
-  <%= "Created Events:"%><br/><br/>
-  <%= "Attended Events:"%><br/><br/>
+<%= "Future events:"%><br/><br/>
+<% current_user.attended_events.where("date > ?", Date.today).each do |event| %>
+  <%= render "events/event", event: event %><br/>
+<% end %>
+<%= "Past events:"%><br/><br/>
+<% current_user.attended_events.where("date <= ?", Date.today).each do |event| %>
   <%= render "events/event", event: event %>
 <% end %>

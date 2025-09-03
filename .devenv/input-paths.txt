@@ -1,7 +1,5 @@
 /home/cac/dev/rails/TOP-PrivateEvents/.devenv/flake.json
 /home/cac/dev/rails/TOP-PrivateEvents/.devenv.flake.nix
-/home/cac/dev/rails/TOP-PrivateEvents/.env
-/home/cac/dev/rails/TOP-PrivateEvents/devenv.local.nix
 /home/cac/dev/rails/TOP-PrivateEvents/devenv.lock
 /home/cac/dev/rails/TOP-PrivateEvents/devenv.nix
 /home/cac/dev/rails/TOP-PrivateEvents/devenv.yaml
