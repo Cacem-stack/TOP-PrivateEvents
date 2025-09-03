@@ -7,17 +7,18 @@
 <ul>
   <b><%= "Upcoming Events:" %></b>
   <% Event.past.each do |event| %>
-    <%= render event %>
-    <% if user_signed_in? %>
-      <%= button_to "Attend Event", event_attending_index_path(event_id: event.id) %>
+    <% if user_signed_in? && (event.attendees.where("name = ?", current_user.name).any? || event.creator_id == current_user.id) %>
+      <%= render event %>
+      <%= button_to "Attend Event", event_attendings_path(event_id: event.id) %>
     <% end %>
   <% end %>
   <br/>
   <b><%= "Past Events:" %></b>
   <% Event.upcoming.each do |event| %>
-    <%= render event %>
-    <% if user_signed_in? %>
-      <%= button_to "Attend Event", event_attending_index_path(event_id: event.id) %>
+    <% if user_signed_in? && (event.attendees.where("name = ?", current_user.name).any? || event.creator_id == current_user.id) %>
+      <%= render event %>
+      <%= button_to "Attend Event", event_attendings_path(event_id: event.id) %>
+      <br/>
     <% end %>
   <% end %>
 </ul>

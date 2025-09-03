@@ -1,0 +1,15 @@
+<h1> EventAttending#new </h1>
+
+
+<b>Invite a friend<b>
+<%= form_with model: @event_attending do |form| %>
+  <% uid_arr = EventAttending.where("attended_event_id = ?", @event.id).pluck(:attendee_id).uniq %>
+  <% users = User.where.not(id: uid_arr) %>
+  <% users.each do |user| %>
+    <%= form.radio_button :attendee_id, user.id %>
+    <%= form.label user.name %>
+    <br/>
+  <% end %>
+  <%= form.hidden_field :event_id, value: @event.id %>
+  <%= form.submit "Invite friend" %>
+<% end %>

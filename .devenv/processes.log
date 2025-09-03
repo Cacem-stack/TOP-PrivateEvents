@@ -24,3 +24,43 @@ Succeeded         devenv:enterShell (10.57ms)
 [postgres	] [devenv:processes:postgres] 2025-09-03 00:42:24.739 GMT [168667] ERROR:  column "dat" does not exist at character 40
 [postgres	] [devenv:processes:postgres] 2025-09-03 00:42:24.739 GMT [168667] HINT:  Perhaps you meant to reference the column "events.date".
 [postgres	] [devenv:processes:postgres] 2025-09-03 00:42:24.739 GMT [168667] STATEMENT:  SELECT "events".* FROM "events" WHERE (dat >= '2025-09-02') /* loading for pp */ LIMIT 11 /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 01:11:39.764 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 01:11:40.113 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.015 s, total=0.349 s; sync files=4, longest=0.006 s, average=0.004 s; distance=2 kB, estimate=2 kB; lsn=0/30024C0, redo lsn=0/3002468
+[postgres	] [devenv:processes:postgres] 2025-09-03 01:56:39.752 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 01:56:40.100 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.015 s, total=0.348 s; sync files=4, longest=0.006 s, average=0.004 s; distance=2 kB, estimate=2 kB; lsn=0/3002F18, redo lsn=0/3002EC0
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:09.732 GMT [238993] ERROR:  column "attended_event" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:09.732 GMT [238993] STATEMENT:  SELECT "attended_event" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:12.429 GMT [238993] ERROR:  column "attended_events" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:12.429 GMT [238993] STATEMENT:  SELECT "attended_events" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:26.757 GMT [238993] ERROR:  column "attended_events" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:26.757 GMT [238993] STATEMENT:  SELECT "attended_events" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:27.978 GMT [238993] ERROR:  column "attended_event" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:04:27.978 GMT [238993] STATEMENT:  SELECT "attended_event" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:10:33.802 GMT [241600] ERROR:  column "event_attendings" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:10:33.802 GMT [241600] STATEMENT:  SELECT "event_attendings" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:10:37.742 GMT [241600] ERROR:  column "event_attending" does not exist at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:10:37.742 GMT [241600] STATEMENT:  SELECT "event_attending" FROM "users" /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:09.042 GMT [241600] ERROR:  column "event_attending" does not exist at character 38
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:09.042 GMT [241600] STATEMENT:  SELECT "users".* FROM "users" WHERE (event_attending) /* loading for pp */ LIMIT 11 /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:14.279 GMT [241600] ERROR:  column "event_attendings" does not exist at character 38
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:14.279 GMT [241600] STATEMENT:  SELECT "users".* FROM "users" WHERE (event_attendings) /* loading for pp */ LIMIT 11 /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:15.621 GMT [241600] ERROR:  column "event_attending" does not exist at character 38
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:18:15.621 GMT [241600] STATEMENT:  SELECT "users".* FROM "users" WHERE (event_attending) /* loading for pp */ LIMIT 11 /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:39:08.984 GMT [272067] ERROR:  column "event_attendings.id" must appear in the GROUP BY clause or be used in an aggregate function at character 8
+[postgres	] [devenv:processes:postgres] 2025-09-03 02:39:08.984 GMT [272067] STATEMENT:  SELECT "event_attendings".* FROM "event_attendings" WHERE (attended_event_id = 12) GROUP BY "event_attendings"."attended_event_id" /* loading for pp */ LIMIT 11 /*application='TopPrivateEvents'*/
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:36:40.488 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:36:40.826 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.305 s, sync=0.012 s, total=0.338 s; sync files=4, longest=0.004 s, average=0.003 s; distance=1 kB, estimate=2 kB; lsn=0/3003330, redo lsn=0/30032D8
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:41:40.926 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:41:41.266 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.014 s, total=0.341 s; sync files=4, longest=0.005 s, average=0.004 s; distance=1 kB, estimate=2 kB; lsn=0/3003888, redo lsn=0/3003830
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:46:40.314 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:46:40.866 GMT [111526] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.508 s, sync=0.021 s, total=0.553 s; sync files=6, longest=0.005 s, average=0.004 s; distance=2 kB, estimate=2 kB; lsn=0/30042E0, redo lsn=0/3004288
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:56:41.067 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 03:56:41.411 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.015 s, total=0.344 s; sync files=4, longest=0.007 s, average=0.004 s; distance=2 kB, estimate=2 kB; lsn=0/3004E38, redo lsn=0/3004DE0
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:31:41.943 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:31:42.287 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.016 s, total=0.344 s; sync files=4, longest=0.005 s, average=0.004 s; distance=1 kB, estimate=2 kB; lsn=0/3005338, redo lsn=0/30052E0
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:36:41.385 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:36:41.825 GMT [111526] LOG:  checkpoint complete: wrote 5 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.405 s, sync=0.015 s, total=0.440 s; sync files=5, longest=0.005 s, average=0.003 s; distance=2 kB, estimate=2 kB; lsn=0/3005E38, redo lsn=0/3005DE0
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:41:41.904 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:41:42.560 GMT [111526] LOG:  checkpoint complete: wrote 7 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.610 s, sync=0.022 s, total=0.657 s; sync files=7, longest=0.006 s, average=0.004 s; distance=4 kB, estimate=4 kB; lsn=0/3006EF0, redo lsn=0/3006E98
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:46:41.632 GMT [111526] LOG:  checkpoint starting: time
+[postgres	] [devenv:processes:postgres] 2025-09-03 04:46:41.977 GMT [111526] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.014 s, total=0.345 s; sync files=4, longest=0.005 s, average=0.004 s; distance=1 kB, estimate=3 kB; lsn=0/30076A0, redo lsn=0/3007648
